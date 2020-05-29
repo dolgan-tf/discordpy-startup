@@ -18,5 +18,9 @@ async def ping(ctx):
     await ctx.send('pong')
  
 
+@bot.command()
+async def クラバト(ctx):
+    await ctx.send('めんどい')
+
 
 bot.run(token)
