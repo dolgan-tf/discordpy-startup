@@ -23,4 +23,10 @@ async def ?command(ctx):
     await ctx.send('ここにコマンド一覧かurlを')
 
 
+@bot.command()
+async def ?help(ctx):
+    await ctx.send('ここにコマンド一覧かurlを')
+
+
+
 bot.run(token)
