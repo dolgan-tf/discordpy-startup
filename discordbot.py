@@ -19,8 +19,8 @@ async def ping(ctx):
  
 
 @bot.command()
-async def クラバト(ctx):
-    await ctx.send('めんどい')
+async def ?command(ctx):
+    await ctx.send('ここにコマンド一覧かurlを')
 
 
 bot.run(token)
