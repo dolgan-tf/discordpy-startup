@@ -29,4 +29,10 @@ async def ?help(ctx):
 
 
 
+@bot.command()
+async def add(left : int, right : int):
+    """Adds two numbers together."""
+    await bot.say(left + right)
+
+
 bot.run(token)
